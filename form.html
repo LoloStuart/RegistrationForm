@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+        <p>First name:* <input type="text"></p>
+        <p>Last name:* <input type="text"></p>
+        <p>Email:* <input type="text"></p>
+        <p>Password:* <input type="password"></p>
+        <p>Confirm password:* <input type="password"></p>
+        <p>Birthday: <input type="date"></p>
+        <p>Gender identity:</p>
+        <!-- Radio button code snippet (modified below) from: https://www.w3schools.com/tags/att_input_type_radio.asp -->
+        <input type="radio" id="male" name="gender" value="male"><label for="male"> Male</label>
+        <input type="radio" id="female" name="gender" value="female"><label for="female"> Female</label>
+        <input type="radio" id="non-binary" name="gender" value="non-binary"><label for="non-binary"> Non-binary</label>
+        <input type="radio" id="I_prefer_not_to_answer" name="gender" value="I_prefer_not_to_answer"><label for="I prefer not to answer"> I prefer not to answer</label>
+        <p>A short description about myself:</p>
+        <textarea>Insert text here.</textarea>
+        <!--Select tag code snippet (modified) from: https://www.w3schools.com/tags/tag_select.asp -->
+        <p>Favorite Language:   
+            <select name="language" id="language">
+                <option value="Javascript">Javascript</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Python">Python</option>
+            </select>
+        </p>
+        <p><input type="checkbox"> Yes, I would like to receive periodic email updates.</p>
+        <!-- Submit code snippet from: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_submit -->
+        <p><input type="submit" value="Create Account"></p>
+        <p>*Indicates a required field</p>
+</body>
+</html>
